@@ -25,7 +25,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
+        setContentView(R.layout.main);
 
         String locationProvider = LocationManager.NETWORK_PROVIDER;
         LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
